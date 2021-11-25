@@ -1,0 +1,26 @@
+{
+  "name": "npm-sdk-test",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ksuhara/npm-sdk-test.git"
+  },
+  "keywords": [],
+  "author": "ksuhara",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ksuhara/npm-sdk-test/issues"
+  },
+  "homepage": "https://github.com/ksuhara/npm-sdk-test#readme",
+  "dependencies": {
+    "typescript": "^4.5.2"
+  }
+}
